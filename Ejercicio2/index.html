@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="lab1b">
+<head>
+<title>Lab1b</title>
+<meta charset="utf-8" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <script type="text/javascript" src="https://code.angularjs.org/1.5.7/angular-route.min.js"></script>
+   <script type="text/javascript" src="js/lab1b.js"></script>
+</head>
+<body>
+<div ng-controller="lab1bController">
+<h1> Filters </h1>
+<ul>
+<li ng-repeat="filter in angular_filters">
+{{filter}}</li></ul>
+
+<h1> Inputs </h1>
+<ul>
+<li ng-repeat="input in angular_input">
+{{input}}</li></ul>
+
+ </div>
+</body>
+</html>
